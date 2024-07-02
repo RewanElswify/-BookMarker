@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- googal font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <!-- googal font  table -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- font asome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrab -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- link css  -->
+    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="img/2899445.png">
+    <title>BookMarker</title>
+  
+</head>
+<body>
+<div class="container pt-2" >
+    <h1  class="pb3 text-center mt-4 py-5 ">BookMarker</h1>
+    <hr class="designe" >
+    <div class=" p-3 py-4 mt-5  gap-4  ">
+        
+        <h2 class="text-center"><span><i class="fa-solid fa-bookmark" style="color: #3fa55b;"></i></span> Bookmark your favorite sitesv <span><i class="fa-solid fa-bookmark" style="color: #b2ab49;"></i></span> </h2>
+        <div class=" designe-group mx-5  mb-4">
+            <span ><i class="fa-solid fa-book-bookmark"></i></span>
+            <label  class=" designe-coler font-weight-bold  text-center mb-2">site Name</label>
+            <input   id="name" type="text" class="form-control" placeholder="BookMarker Name" >
+        </div>
+        <div class="designe-group mx-5  ">
+            <span class="pb-2"><i class="fa-solid fa-link"></i></span>
+            <label  class="designe-coler text-center font-weight-bold mb-2">site URL</label>
+            <input   id="Url" type="text" class="form-control" placeholder="website URL" >
+        </div>
+         
+        <div class="d-flex justify-content-center py-4">
+            <button   id="addBtn"    class= " btn btn-submit px-5 "> Submit </button>
+        </div> 
+
+        <hr class="designe" >
+
+        <div class="output">
+            <table class="table  mt-4 text-center bg-light">
+                <thead>
+                   
+                    <tr>
+                        <th class="text-capitalize">Index</th>
+                        <th class="text-capitalize">Website Name</th>
+                        <th>Visit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody  id="TabeBody" ></tbody>
+            </table>
+        </div>
+       
+
+
+
+
+
+    </div>
+ 
+</div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+ body{
+    background-color: #F7ECDE;
+ }
+ h1{
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #352E28;
+ }
+ .form-control:focus{
+   color: #212529;
+   background-color: #fff;
+   border-color: #d99c39;
+   outline: 0;
+   box-shadow: 0 0 0 0.25rem #fec26055;
+ }
+.designe{
+   border-style: dotted;
+   /* color: black; */
+   /* color:#352E28; */
+   color: rgb(0,0,0);
+}
+.designe-coler{
+   font-size: 16px;
+   font-family: "PT Sans Caption", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   color: rgb(33, 37, 41);
+   line-height: 24px;
+}
+
+h2{
+   color: #47A65A;
+   
+}
+.btn-submit{
+   --bs-btn-color: #fff;
+    --bs-btn-bg: #d1512d;
+    --bs-btn-border-color: #d1512d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb4120;
+    --bs-btn-hover-border-color: #a03315;
+    cursor: pointer;
+}
+
+
+ table{
+   font-size: 16px;
+   color:#212529 ;
+   font-family: "PT Sans Caption", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+ }
